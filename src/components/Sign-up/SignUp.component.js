@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SignUp = ({ onRouteChange }) => {
 	return (
@@ -54,7 +54,7 @@ const SignUp = ({ onRouteChange }) => {
 				</main>
 			</article>
 		</div>
-	)
-}
+	);
+};
 
-export default SignUp
+export default SignUp;

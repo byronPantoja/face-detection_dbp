@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 const Navigation = ({ onRouteChange, userSignedIn }) => {
 	if (userSignedIn) {
 		return (
 			<nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
 				<p
-					onClick={() => onRouteChange('signout')}
+					onClick={() => onRouteChange('signin')}
 					className='f3 link dim black underline pa3 pointer'
 				>
 					Sign Out
 				</p>
 			</nav>
-		)
+		);
 	} else {
 		return (
 			<nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
@@ -28,8 +28,8 @@ const Navigation = ({ onRouteChange, userSignedIn }) => {
 					Sign up
 				</p>
 			</nav>
-		)
+		);
 	}
-}
+};
 
-export default Navigation
+export default Navigation;
