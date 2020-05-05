@@ -79,12 +79,12 @@ class SignIn extends React.Component {
 							/>
 						</div>
 						<div className='lh-copy mt3'>
-							<p
+							<input
 								onClick={() => onRouteChange('signup')}
-								className='f6 link dim black db pointer'
-							>
-								Sign me up!
-							</p>
+								className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
+								type='button'
+								value='Sign up'
+							/>
 						</div>
 					</form>
 				</main>
